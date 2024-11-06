@@ -245,12 +245,27 @@ function App() {
 
 
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-9 d-flex align-items-center">
+          <div class="col-2 d-flex align-items-center">
             <span class="mb-md-0 text-muted">
               ©
-              <a href="https://github.com/ihkk" class="link text-muted" target="_blank" style={{ textDecoration: "none" }}>Kai HE</a>            </span>
+              <a href="https://github.com/ihkk" class="link text-muted" target="_blank" style={{ textDecoration: "none" }}>Jacky HE</a>            </span>
           </div>
 
+          <ul class="nav col-10 justify-content-end list-unstyled d-flex">
+            <span class="mb-md-0 text-muted">This Playground is a part of my Final Year Project.</span>
+            <li class="ms-3">
+              <a className="text-muted" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">
+                <i class="bi bi-cc-circle-fill"></i>
+              </a>
+            </li>
+
+            <li class="ms-1">
+              <a className="text-muted" target="_blank" href="https://github.com/ihkk/align-colour">
+                <i class="bi bi-github"></i>
+              </a>
+            </li>
+
+          </ul>
         </footer>
       </div>
     </div>
