@@ -203,7 +203,7 @@ function App() {
         <div className="container mt-4">
           <div className="row">
             <div className="col-md-4 text-start">
-              <h5>Source Image</h5>
+              <h5>Source Image</h5><h6>Your original photo</h6>
               <input
                 type="file"
                 accept="image/*"
@@ -214,7 +214,7 @@ function App() {
               <canvas ref={sourceCanvasRef} id="sourceCanvas" className="w-100 border mt-2"></canvas>
             </div>
             <div className="col-md-4 text-start">
-              <h5>Target Image</h5>
+              <h5>Target Image</h5><h6>The sceenshot as the colour reference</h6>
               <input
                 type="file"
                 accept="image/*"
